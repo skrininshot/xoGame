@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#353232"
+    android:foregroundTint="#FFFFFF"
+    android:paddingTop="-10dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:orientation="horizontal"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/button1"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#453E3E"
+            android:onClick="tap"
+            android:paddingTop="-10dp"
+            android:textColor="#FFFFFF"
+            android:textSize="60sp"
+            app:iconTint="#FFFFFF"
+            app:rippleColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/button2"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#453E3E"
+            android:onClick="tap"
+            android:paddingTop="-10dp"
+            android:textColor="#FFFFFF"
+            android:textSize="60sp"
+            app:rippleColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/button3"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#453E3E"
+            android:onClick="tap"
+            android:paddingTop="-10dp"
+            android:textColor="#FFFFFF"
+            android:textSize="60sp"
+            app:rippleColor="#FFFFFF" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout1">
+
+        <Button
+            android:id="@+id/button4"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#453E3E"
+            android:onClick="tap"
+            android:paddingTop="-10dp"
+            android:textColor="#FFFFFF"
+            android:textSize="60sp"
+            app:rippleColor="#FFFFFF"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/button5"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#453E3E"
+            android:onClick="tap"
+            android:paddingTop="-10dp"
+            android:textColor="#FFFFFF"
+            android:textSize="60sp"
+            app:rippleColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/button6"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#453E3E"
+            android:onClick="tap"
+            android:paddingTop="-10dp"
+            android:textColor="#FFFFFF"
+            android:textSize="60sp"
+            app:rippleColor="#FFFFFF" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <Button
+            android:id="@+id/button7"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#453E3E"
+            android:onClick="tap"
+            android:paddingTop="-10dp"
+            android:textColor="#FFFFFF"
+            android:textSize="60sp"
+            app:rippleColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/button8"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#453E3E"
+            android:onClick="tap"
+            android:paddingTop="-10dp"
+            android:textColor="#FFFFFF"
+            android:textSize="60sp"
+            app:rippleColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/button9"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#453E3E"
+            android:onClick="tap"
+            android:paddingTop="-10dp"
+            android:textColor="#FFFFFF"
+            android:textSize="60sp"
+            app:rippleColor="#FFFFFF" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="232dp"
+        android:layout_height="84dp"
+        android:backgroundTint="#534C4C"
+        android:onClick="restart"
+        android:text="@string/button"
+        android:textSize="20sp"
+        app:cornerRadius="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        app:layout_constraintVertical_bias="0.515"
+        app:rippleColor="#FFFFFF"
+        tools:text="Начать заново" />
+
+    <TextView
+        android:id="@+id/xo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
